@@ -1,0 +1,51 @@
+# ─── Python / Backend ─────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.xml
+
+# ─── Node.js / Frontend ───────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Environment / Secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+.vscode/settings.json
+.idea/
+
+# ─── Project specific ─────────────────────────────────────────────────────────
+# No data files en repositorio (Zero-Database: todo en RAM)
+*.db
+*.sqlite
+*.json.bak
